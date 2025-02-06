@@ -52,7 +52,7 @@ class MyConversation extends Conversation {
     }
 }
 
-$bot = new Nutgram("7512909618:AAG9pHE2HVjznshJoIisRxVycqmcp8HEesI",$config);
+$bot = new Nutgram("",$config);
 
 $bot->onCommand("start",MyConversation::class);
 
